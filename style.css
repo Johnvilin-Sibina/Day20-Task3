@@ -1,0 +1,78 @@
+.background{
+    background-image: url(disney.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    }
+.head{
+    color: rgb(191, 199, 241);
+    font-size: 100px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.main{
+    color: white;
+    font-size: 20px;
+}
+.main1{
+    font-style: italic;
+    width: 25%;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+}
+.browse{
+    border-radius: 5px;
+    background-color: rgb(230, 234, 255);
+    display: block;
+    margin-left: 47%
+}
+.no_data{
+    color: red;
+    font-size: 20px;
+}
+/* .picture{
+    height:180px;
+}
+.card{
+    height: 27em;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color:white;
+}
+.card-title{
+    font-size: 16px;
+}
+.card-text{
+    font-size: 14px;
+}
+.container{
+    margin-top: 50px;
+}*/
+.container{
+    margin-top: 50px;
+}
+.picture{
+    height: 180px;
+}
+.card{
+    height: 30em;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color:white;
+}
+.card-text{
+    color: black;
+}
+.single{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.two_data{
+    display: inline-block;
+    margin-right: 5%;
+    margin-top: 5%;
+}
