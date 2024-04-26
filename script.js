@@ -1,6 +1,11 @@
 //The name of a disney character is given by the user and that name is used to fetch data about the given character from 
 //the Disney API
 
+//Function to create section
+function create_section(){
+    let res =document.createElement("section")
+    return res;
+}
 //This function is to create a h1 tag
 function create_h1(tagname, attrname, attrvalue, content) {
     let res = document.createElement(tagname);
@@ -69,6 +74,9 @@ function create_div_main(tagname, attrname, attrvalue, content) {
     return res;
 }
 
+let section = create_section();
+section.className = "section";
+
 //The function create_h1 is called here and the values for the parameters are passed
 var heading1 = create_h1("h1", "class", "head", "Disney Land")
 
@@ -90,7 +98,7 @@ var br4 = create_break();
 //The function create_button is called here and the values for the parameters are passed
 var button = create_button("button", "type", "button", "onclick", "button_click()", "class", "browse", "Search");
 
-document.body.append(heading1, label, br1, br2, input, br3, br4, button)
+
 
 //When the search button is clicked this function gets called and the input given by the user is retrived
 //and the retrived data is passed to the api url and then the necessary data is fetched and displayed
@@ -308,3 +316,6 @@ async function button_click() {
         document.body.append(div);
     }
 }
+
+section.append(heading1, label, br1, br2, input, br3, br4, button)
+document.body.append(section)
