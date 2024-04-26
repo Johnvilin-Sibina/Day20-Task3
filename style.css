@@ -18,7 +18,7 @@
 }
 .main1{
     font-style: italic;
-    width: 25%;
+    width: 25vw;
     font-size: 14px;
     text-align: center;
     border: 2px solid darkgrey;
@@ -28,30 +28,11 @@
     border-radius: 5px;
     background-color: rgb(230, 234, 255);
     display: block;
-    margin-left: 47%
 }
 .no_data{
     color: red;
     font-size: 20px;
 }
-/* .picture{
-    height:180px;
-}
-.card{
-    height: 27em;
-    margin-bottom: 20px;
-    border-radius: 25px;
-    background-color:white;
-}
-.card-title{
-    font-size: 16px;
-}
-.card-text{
-    font-size: 14px;
-}
-.container{
-    margin-top: 50px;
-}*/
 .container{
     margin-top: 50px;
 }
@@ -75,4 +56,23 @@
     display: inline-block;
     margin-right: 5%;
     margin-top: 5%;
+}
+@media screen and (max-width: 576px){
+   .main1{
+    width: 70vw;
+    font-size: 18px;
+   }
+   .main{
+    font-size: 2rem;
+   }
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-4{
+    display: flex;
+    justify-content: center;
 }
